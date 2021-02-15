@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #222;
+    --secondary-color: #444;
+    --accent-color1: #90f;
+    --accent-color2: #55f;
+    --accent-color3: #fff;
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--accent-color3);
+    background-color: var(--primary-color);
+}
+
+.section-title {
+    font-size: 48px;
+    color: var(--accent-color3);
+    padding-left: 1em;
+    border-bottom: 3px solid var(--accent-color1);
+    margin: 0.5em 0;
+    width: 30%;
+    text-align: left;
+}
+
+/* HEADER STYLES BEGIN */
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+    width: 100%;
+    padding: 16px 0;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.page-select {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    margin-left: 1em;
+    width: 30%;
+}
+
+.page-select a {
+    padding: 0 0.5em;
+    font-size: 32px;
+    text-align: center;
+    color: var(--accent-color2);
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em;
+    margin-right: 1.5em;
+    width: 30%;
+}
+.percussion-ul {
+    width: 45%
+}
+
+header ul li {
+    list-style: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header ul li a {
+    color: var(--accent-color2);
+}
+/* HEADER STYLES END */
+
+/* ABOUT ME STYLES BEGIN */
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%
+}
+
+.about-me-img {
+    width: 25%;
+    padding: 20px;
+}
+
+.headshot {
+    width: 100%;
+}
+
+.about-me-txt{
+    width: 70%;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.about-me-txt h2 {
+    font-size: 24px;
+    color: var(--accent-color2);
+}
+
+.about-me-txt p {
+    font-size: 16px;
+    color: var(--accent-color3);
+}
+/* ABOUT ME STYLES END */
+
+/* MY WORK STYLES BEGIN */
+.my-work h2 {
+    text-align: center;
+    font-size: 32px;
+    border-bottom: 2px solid var(--accent-color2);
+    margin-bottom: 1em;
+}
+
+.main-project {
+    width: 70%;
+    margin: 10px auto;
+}
+
+.main-screenshot {
+    width: 100%
+}
+
+.other-projects {
+    display: flex;
+}
+
+.run-buddy {
+    width: 35%;
+    margin: 10px auto;
+}
+
+.js-prework {
+    width: 35%;
+    margin: 10px auto;
+}
+
+.screenshot {
+    width: 100%;
+}
+/* MY WORK STYLES END */
+
+/* CONTACT ME STYLES BEGIN */
+.contact-me-txt{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.contact-me-txt h2 {
+    font-size: 24px;
+    color: var(--accent-color2);
+}
+
+.contact-me-txt p {
+    font-size: 16px;
+    color: var(--accent-color3);
+}
+
+.contact-me-txt a {
+    text-decoration: none;
+}
+/* CONTACT ME STYLES END */
+
+/* FOOTER STYLES BEGIN */
+footer {
+    background-color: var(--secondary-color);
+    font-size: 24px;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+}
+footer a {
+    text-decoration: none;
+}
