@@ -93,16 +93,16 @@ header ul li a {
 }
 
 .about-me-img {
-    width: 40%;
+    width: 25%;
     padding: 20px;
 }
 
 .headshot {
-    width: inherit;
+    width: 100%;
 }
 
 .about-me-txt{
-    width: 60%;
+    width: 70%;
     padding: 10px;
     text-align: center;
     line-height: 1.5;
@@ -116,4 +116,40 @@ header ul li a {
 .about-me-txt p {
     font-size: 16px;
     color: var(--accent-color3);
+}
+/* ABOUT ME STYLES END */
+
+/* MY WORK STYLES BEGIN */
+.my-work h2 {
+    text-align: center;
+    font-size: 32px;
+    border-bottom: 2px solid var(--accent-color2);
+    margin-bottom: 1em;
+}
+
+.main-project {
+    width: 70%;
+    margin: 10px auto;
+}
+
+.main-screenshot {
+    width: 100%
+}
+
+.other-projects {
+    display: flex;
+}
+
+.run-buddy {
+    width: 35%;
+    margin: 10px auto;
+}
+
+.js-prework {
+    width: 35%;
+    margin: 10px auto;
+}
+
+.screenshot {
+    width: 100%;
 }
