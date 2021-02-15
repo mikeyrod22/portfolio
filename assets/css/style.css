@@ -3,3 +3,79 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --primary-color: #222;
+    --secondary-color: #444;
+    --accent-color1: #90f;
+    --accent-color2: #55f;
+    --accent-color3: #fff;
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--accent-color3);
+    background-color: var(--primary-color);
+}
+
+.section-title {
+    font-size: 48px;
+    color: var(--accent-color3);
+    padding-left: 1em;
+    border-bottom: 3px solid var(--accent-color1);
+    margin: 0.5em 0;
+    width: 30%;
+    text-align: left;
+}
+
+/* HEADER STYLES BEGIN */
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+    width: 100%;
+    padding: 16px 0;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.page-select {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    margin-left: 1em;
+    width: 30%;
+}
+
+.page-select a {
+    padding: 0 0.5em;
+    font-size: 32px;
+    text-align: center;
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em;
+    margin-right: 1.5em;
+    width: 30%;
+}
+.percussion-ul {
+    width: 45%
+}
+
+header ul li {
+    list-style: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+/* HEADER STYLES END */
