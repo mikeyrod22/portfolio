@@ -58,6 +58,7 @@ header a {
     padding: 0 0.5em;
     font-size: 32px;
     text-align: center;
+    color: var(--accent-color2);
 }
 
 header ul {
@@ -78,4 +79,41 @@ header ul li {
     font-size: 24px;
     font-weight: bold;
 }
+
+header ul li a {
+    color: var(--accent-color2);
+}
 /* HEADER STYLES END */
+
+/* ABOUT ME STYLES BEGIN */
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%
+}
+
+.about-me-img {
+    width: 40%;
+    padding: 20px;
+}
+
+.headshot {
+    width: inherit;
+}
+
+.about-me-txt{
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.about-me-txt h2 {
+    font-size: 24px;
+    color: var(--accent-color2);
+}
+
+.about-me-txt p {
+    font-size: 16px;
+    color: var(--accent-color3);
+}
