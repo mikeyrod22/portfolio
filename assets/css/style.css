@@ -153,3 +153,39 @@ header ul li a {
 .screenshot {
     width: 100%;
 }
+/* MY WORK STYLES END */
+
+/* CONTACT ME STYLES BEGIN */
+.contact-me-txt{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.contact-me-txt h2 {
+    font-size: 24px;
+    color: var(--accent-color2);
+}
+
+.contact-me-txt p {
+    font-size: 16px;
+    color: var(--accent-color3);
+}
+
+.contact-me-txt a {
+    text-decoration: none;
+}
+/* CONTACT ME STYLES END */
+
+/* FOOTER STYLES BEGIN */
+footer {
+    background-color: var(--secondary-color);
+    font-size: 24px;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+}
+footer a {
+    text-decoration: none;
+}
